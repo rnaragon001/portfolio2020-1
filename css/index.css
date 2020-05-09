@@ -3,24 +3,69 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: start;
     background-color: aqua;
+    height: 10vh;
     margin: 0;
-    padding: 0 10;
+    padding: 0;
+}
+
+.nav-title {
+    margin-left: 10px;
 }
 
 .main {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: beige;
+    height: 85vh;
+    margin: 0;
+    padding: 0;
+}
+
+.leftPanel {
+    height: 100%;
+    width: 25vw;
+    border: 1px solid gray;
+}
+
+.centerPanel {
+    height: 100%;
+    width: 50vw;
+    border: 1px solid gray;
+}
+
+.rightPanel {
+    height: 100%;
+    width: 25vw;
+    border: 1px solid gray;
 }
 
 .footer {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: start;
     background-color: gray;
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-title {
+    margin-left: 10px;
 }
